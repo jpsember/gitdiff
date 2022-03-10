@@ -1,0 +1,4 @@
+fields {
+  int file_index;
+  int hunk_index;
+}
