@@ -9,6 +9,7 @@ target
 
 _OLD_*
 _SKIP_*
+.jsproject
 
 # Eclipse IDE
 #

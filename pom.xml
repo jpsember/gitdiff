@@ -5,7 +5,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.jsbase</groupId>
-  <artifactId>cmit</artifactId>
+  <artifactId>gitdiff</artifactId>
   <version>1.0</version>
 
   <properties>
@@ -55,5 +55,13 @@
 
   <!--  Custom elements start {~elements:         -->
   <!--  Custom elements end   ~}                  -->
+
+  <!--DEV
+
+{ "app_name" : "gitdiff",
+   "cmdline" : "java -Dfile.encoding=UTF-8 -classpath $MVN/com/jsbase/gitdiff/1.0/gitdiff-1.0.jar:$MVN/com/jsbase/base/1.0/base-1.0.jar:$MVN/commons-io/commons-io/2.6/commons-io-2.6.jar:$MVN/com/jsbase/gitutil/1.0/gitutil-1.0.jar:$MVN/org/jline/jline/3.17.1/jline-3.17.1.jar js.gitdiff.GitDiffApp \"$@\""
+}
+
+-->
 
 </project>
