@@ -12,6 +12,7 @@ import java.util.zip.CRC32;
 import js.app.AppOper;
 import js.app.CmdLineArgs;
 import js.base.SystemCall;
+import js.data.DataUtil;
 import js.file.BackupManager;
 import js.file.Files;
 import js.geometry.MyMath;
@@ -305,7 +306,7 @@ public class GitDiffOper extends AppOper {
   private long calculateHash(FileEntry file_ent, Hunk h) {
     String hstr = file_ent.path() + h.toJson().toString();
     mCRC.reset();
-    mCRC.update(hstr.getBytes());
+    mCRC.update(DataUtil.toByteArray(hstr));
     return mCRC.getValue();
   }
 
