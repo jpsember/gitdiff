@@ -45,7 +45,6 @@
     </plugins>
   </build>
 
-
   <repositories>
     <repository>
       <id>jitpack.io</id>
