@@ -11,6 +11,7 @@ import java.util.zip.CRC32;
 
 import js.app.AppOper;
 import js.app.CmdLineArgs;
+import js.base.BasePrinter;
 import js.base.SystemCall;
 import js.data.DataUtil;
 import js.file.BackupManager;
@@ -31,6 +32,11 @@ public class GitDiffOper extends AppOper {
     return "displays git diff, allow accepting, editing, reverting changes";
   }
 
+  @Override
+  protected void longHelp(BasePrinter b) {
+       b.pr("[ forget | distance <x> | unaccept]*");
+  }
+  
   @Override
   public String userCommand() {
     return "gitdiff";

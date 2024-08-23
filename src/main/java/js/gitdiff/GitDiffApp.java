@@ -8,7 +8,8 @@ public class GitDiffApp extends App {
 
   public static void main(String[] args) {
     loadTools();
-    new GitDiffApp().startApplication(args);
+    var app = new GitDiffApp();
+    app.startApplication(args);
   }
 
   @Override
