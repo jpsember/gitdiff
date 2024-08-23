@@ -33,7 +33,7 @@ public class GitDiffOper extends AppOper {
 
   @Override
   public String userCommand() {
-    return null;
+    return "gitdiff";
   }
 
   private static final String CLARG_FORGET = "forget";
