@@ -27,7 +27,7 @@ import js.system.SystemUtil;
 public class GitDiffOper extends AppOper {
 
   @Override
-  protected String getHelpDescription() {
+  protected String shortHelp() {
     return "displays git diff, allow accepting, editing, reverting changes";
   }
 

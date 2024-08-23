@@ -55,6 +55,13 @@
 
     <dependency>
       <groupId>com.jsbase</groupId>
+      <artifactId>java-testutil</artifactId>
+      <version>3.0</version>
+      <scope>test</scope>
+    </dependency>
+
+    <dependency>
+      <groupId>com.jsbase</groupId>
       <artifactId>gitutil</artifactId>
       <version>3.0</version>
     </dependency>
